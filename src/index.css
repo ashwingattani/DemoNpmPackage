@@ -1,0 +1,46 @@
+.subscriber-details-top-wrapper {
+  background-color: #e0e6eb;
+  height: 88px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  align-items: center;
+  display: flex;
+}
+.subscriber-details-top-wrapper .goback {
+  color: #1c1d1f;
+  font-size: 14px;
+  background-image: url(./assets/left-arrow.svg);
+  background-color: transparent;
+  border: none;
+  text-indent: 30px;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  margin-left: 46px;
+  cursor: pointer;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.subscriber-details-top-wrapper .goback:hover {
+  background-image: url(./assets/left-arrow-hover.svg);
+  color: #2f6a9e;
+}
+.subscriber-details-top-wrapper .goback:focus {
+  box-shadow: 0 0 5px #51cbee !important;
+  border: 1px solid #51cbee !important;
+  outline: none !important;
+}
+.subscriber-details-top-wrapper .subscriber-heading {
+  font-size: 18px;
+  font-weight: Bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 0;
+  margin-left: 51px;
+  text-transform: Uppercase;
+}
+.subscriber-details-top-wrapper .subscriber-heading:focus {
+  box-shadow: 0 0 5px #51cbee !important;
+  border: 1px solid #51cbee !important;
+  outline: none !important;
+}
